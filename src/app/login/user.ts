@@ -1,4 +1,4 @@
-export class user={
-  mail | undefined: string;
-  password |undefined: string;
+export class user{
+  mail!: string ;
+  password!: string ;
 }
