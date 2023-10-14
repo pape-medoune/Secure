@@ -31,6 +31,6 @@ export class AuthService {
       alert('Mail ou password incorrecte');
       this.router.navigate(["login"]);
     }
-    return this.http.post('your-login-endpoint', { mail, password });
+    return this.http.post('login', { mail, password });
   }
 }
